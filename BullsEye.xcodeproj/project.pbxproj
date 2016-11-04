@@ -15,6 +15,7 @@
 		7A17699F1DC846E400B3F2C6 /* BullsEyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A17699E1DC846E400B3F2C6 /* BullsEyeTests.swift */; };
 		7A1769AA1DC846E400B3F2C6 /* BullsEyeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1769A91DC846E400B3F2C6 /* BullsEyeUITests.swift */; };
 		7A1769B81DCAA61800B3F2C6 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1769B71DCAA61800B3F2C6 /* AboutViewController.swift */; };
+		7A1769BA1DCC0A7100B3F2C6 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 7A1769B91DCC0A7100B3F2C6 /* BullsEye.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7A1769A91DC846E400B3F2C6 /* BullsEyeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeUITests.swift; sourceTree = "<group>"; };
 		7A1769AB1DC846E400B3F2C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A1769B71DCAA61800B3F2C6 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		7A1769B91DCC0A7100B3F2C6 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = BullsEye.html; path = "../../../../Downloads/The iOS Apprentice 1 - Getting Started/Resources/BullsEye.html"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		7A1769881DC846E400B3F2C6 /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				7A1769B91DCC0A7100B3F2C6 /* BullsEye.html */,
 				7A1769891DC846E400B3F2C6 /* AppDelegate.swift */,
 				7A17698B1DC846E400B3F2C6 /* ViewController.swift */,
 				7A17698D1DC846E400B3F2C6 /* Main.storyboard */,
@@ -236,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A1769941DC846E400B3F2C6 /* LaunchScreen.storyboard in Resources */,
+				7A1769BA1DCC0A7100B3F2C6 /* BullsEye.html in Resources */,
 				7A1769911DC846E400B3F2C6 /* Assets.xcassets in Resources */,
 				7A17698F1DC846E400B3F2C6 /* Main.storyboard in Resources */,
 			);
@@ -507,6 +511,7 @@
 				7A1769B01DC846E400B3F2C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A1769B11DC846E400B3F2C6 /* Build configuration list for PBXNativeTarget "BullsEyeTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				7A1769B31DC846E400B3F2C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A1769B41DC846E400B3F2C6 /* Build configuration list for PBXNativeTarget "BullsEyeUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				7A1769B61DC846E400B3F2C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
